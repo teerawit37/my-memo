@@ -12,6 +12,7 @@
 		BDEC020B1BC4B553002731DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEC02091BC4B553002731DE /* Main.storyboard */; };
 		BDEC020D1BC4B553002731DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEC020C1BC4B553002731DE /* Assets.xcassets */; };
 		BDEC02101BC4B553002731DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEC020E1BC4B553002731DE /* LaunchScreen.storyboard */; };
+		BDEC02191BC4BB64002731DE /* inhub logo-01.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEC02181BC4BB64002731DE /* inhub logo-01.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BDEC020C1BC4B553002731DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDEC020F1BC4B553002731DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDEC02111BC4B553002731DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEC02181BC4BB64002731DE /* inhub logo-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inhub logo-01.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		BDEC02041BC4B553002731DE /* MemoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BDEC02171BC4BB38002731DE /* Image */,
 				BDEC02051BC4B553002731DE /* AppDelegate.swift */,
 				BDEC02071BC4B553002731DE /* ViewController.swift */,
 				BDEC02091BC4B553002731DE /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				BDEC02111BC4B553002731DE /* Info.plist */,
 			);
 			path = MemoDemo;
+			sourceTree = "<group>";
+		};
+		BDEC02171BC4BB38002731DE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BDEC02181BC4BB64002731DE /* inhub logo-01.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDEC02101BC4B553002731DE /* LaunchScreen.storyboard in Resources */,
+				BDEC02191BC4BB64002731DE /* inhub logo-01.png in Resources */,
 				BDEC020D1BC4B553002731DE /* Assets.xcassets in Resources */,
 				BDEC020B1BC4B553002731DE /* Main.storyboard in Resources */,
 			);
